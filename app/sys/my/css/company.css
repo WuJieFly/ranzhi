@@ -1,0 +1,9 @@
+.with-side {position: relative; padding-left: 260px;}
+.side {position: absolute; left: 0; top: 0; width: 240px;}
+.main {width: 100%;}
+.closed, .finished {color: #38B03F;}
+#ajaxModal .actions .self{display: none;}
+#ajaxModal{z-index:10050}
+.fixed-left .table-bordered, .fixed-left .table tr th:last-child, .fixed-left .table tr td:last-child{border-right: none;}
+.main div[id*=datatable] .datatable-head .table-bordered {border-bottom: 0 none;}
+.main div[id*=datatable] .datatable-head .table-bordered th {border-bottom: 0 none;}

@@ -1,0 +1,8 @@
+.form-condensed .input-group>.input-group-addon {border-left:none; border-right:none; border-radius: 0}
+
+.plus, .minus {line-height: 30px}
+.plus:hover, .minus:hover, .plus:active, .minus:active {text-decoration: none}
+
+#customer_chosen .chosen-results > li.no-results {cursor: pointer;}
+#customer_chosen .chosen-results > li.no-results:hover {color: #1a4f85; background-color: #ddd;}
+#customer_chosen .chosen-results > li.no-results > span {font-weight: bold;}

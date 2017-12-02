@@ -1,0 +1,14 @@
+.chosen-container[id^="category"] .chosen-drop {min-width: 484px !important}
+.expense .chosen-container-single {width:233px !important}
+
+#trader_chosen .chosen-results > li.no-results {cursor: pointer;}
+#trader_chosen .chosen-results > li.no-results:hover {color: #1a4f85; background-color: #ddd;}
+#trader_chosen .chosen-results > li.no-results > span {font-weight: bold;}
+
+#customer_chosen .chosen-results > li.no-results {cursor: pointer;}
+#customer_chosen .chosen-results > li.no-results:hover {color: #1a4f85; background-color: #ddd;}
+#customer_chosen .chosen-results > li.no-results > span {font-weight: bold;}
+
+#allCustomer_chosen .chosen-results > li.no-results {cursor: pointer;}
+#allCustomer_chosen .chosen-results > li.no-results:hover {color: #1a4f85; background-color: #ddd;}
+#allCustomer_chosen .chosen-results > li.no-results > span {font-weight: bold;}

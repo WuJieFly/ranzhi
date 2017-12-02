@@ -1,0 +1,16 @@
+.row-table{display:table; width: 100%;} 
+.col-table{padding: 6px; display: table-cell; vertical-align: top; border-right:1px solid #ddd; border-bottom:1px solid #ddd} 
+.col-table.thead{font-weight:bold;} 
+.col-table i.icon-default {border-radius: 0; vertical-align: bottom; overflow: hidden}
+
+ul{list-style:none;padding:0px;margin:0px;}
+
+li.drag-shadow {display: none}
+li i.sort-handler-1 {cursor: move; color: #999;}
+li i.sort-handler-2 {cursor: move; color: #999;}
+.sortable-sorting > li {transition: all .2s; position: relative; z-index: 5; opacity: .3;}
+.sortable-sorting {cursor: move;}
+.sortable-sorting > li.drag-row {opacity: 1; z-index: 10; box-shadow: 0 2px 4px red}
+.sortable-sorting > li.drag-row + li > .col-table {box-shadow: inset 0 4px 2px rgba(0,0,0,.2)}
+.sortable-sorting > li.drag-row > .col-table {background-color: #edf3fe!important}
+li.drop-success > .col-table {background-color: #cfe0ff; transition: background-color 2s;}

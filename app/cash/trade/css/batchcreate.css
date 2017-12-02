@@ -1,0 +1,19 @@
+.table td .checkbox {margin: 0;}
+.table .checkbox,.table input[type='radio'] + label {margin-right: 10px;}
+.table textarea.form-control{height: 32px;}
+
+.chosen-container[id^="trader"] .chosen-single{width: 244px !important}
+.input-group .chosen-container[id^="trader"] .chosen-single{width: 176px !important;}
+.chosen-container[id^="trader"] .chosen-drop {min-width: 450px !important}
+.chosen-container[id^="dept"] .chosen-single{width: 75px !important;}
+.chosen-container[id^="dept"] .chosen-drop {min-width: 200px !important}
+.chosen-container[id^="category"] .chosen-single{width: 150px !important;}
+.chosen-container[id^="category"] .chosen-drop {min-width: 450px !important}
+.chosen-container[id^="handlers"] .chosen-single{width: 100px !important;}
+.chosen-container[id^="handlers"] .chosen-drop {min-width: 200px !important}
+.chosen-container[id^="product"] .chosen-single{width: 90px !important;}
+.chosen-container[id^="product"] .chosen-drop {min-width: 200px !important}
+
+.chosen-container[id^="trader"] .chosen-results > li.no-results {cursor: pointer;}
+.chosen-container[id^="trader"] .chosen-results > li.no-results:hover {color: #1a4f85; background-color: #ddd;}
+.chosen-container[id^="trader"] .chosen-results > li.no-results > span {font-weight: bold;}

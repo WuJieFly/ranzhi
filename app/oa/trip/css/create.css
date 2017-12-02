@@ -1,0 +1,3 @@
+#customers_chosen .chosen-results > li.no-results {cursor: pointer;}
+#customers_chosen .chosen-results > li.no-results:hover {color: #1a4f85; background-color: #ddd;}
+#customers_chosen .chosen-results > li.no-results > span {font-weight: bold;}
